@@ -538,7 +538,38 @@ section {
   margin-right: 6px;
 }
 
-/* —— Photo slots —— */
+/* —— Photo slots & real machine frames —— */
+.photo-frame {
+  margin: 0;
+  background: #ffffff;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+}
+
+.photo-frame img {
+  width: 100%;
+  height: 220px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.photo-frame.hero-photo img {
+  height: 280px;
+}
+
+.photo-frame figcaption {
+  margin-top: 8px;
+  font-size: 0.8rem;
+  color: var(--muted);
+  text-align: center;
+}
+
 .photo-slot {
   margin: 0;
   background:
