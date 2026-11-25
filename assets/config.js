@@ -19,10 +19,10 @@ window.SITE_CONFIG = {
 
   contact: {
     email: "ll-knit@ll-knit.com",
-    phoneDisplay: "+86 138 0000 0000",
-    whatsapp: "+86 138 0000 0000",
+    phoneDisplay: "+86 176 0673 4312",
+    whatsapp: "+86 176 0673 4312",
     /* digits only, country code included, no + or spaces */
-    whatsappDigits: "8613800000000",
+    whatsappDigits: "8617606734312",
     address: "Huadu District, Guangzhou, Guangdong, China",
     addressZh: "广东省广州市花都区",
     hours: "Mon–Sat 08:30–18:00 CST (UTC+8)",
